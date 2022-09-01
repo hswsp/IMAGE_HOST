@@ -17,6 +17,8 @@ HTTPS：支持（似乎不支持 HTTP2）
 
 # 使用jsdelivr作为CDN
 
+注：jsDelivr不支持加载超过20M的资源
+
 使用前点击release发布
 
 ## 通过jsDelivr引用资源，自定义发布版本号
