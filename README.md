@@ -15,4 +15,13 @@ HTTPS：支持（似乎不支持 HTTP2）
 
 这和使用 GitHub Raw 需要 GitHub 的服务器动态生成文件不同，user-image 这个子域名是 GitHub 专门为静态文件准备的，不会让当年某某抢票助手 CC GitHub 的事情重现的。 当然，这个接口不是公开的。善待 GitHub。
 
+# 使用jsdelivr作为CDN
+
+release一个空白版本后使用如下链接：
+
+```
+https://cdn.jsdelivr.net/gh/hswsp/IMAGE_HOST@main/avatar/girl.jpeg
+```
+
+
 
